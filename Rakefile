@@ -5,9 +5,9 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "ruport_json_formatter"
-    gem.summary = %Q{Adds json output report to ruport}
-    gem.description = %Q{Adds json output report to ruport}
-    gem.email = "john.riney@milemeter.com"
+    gem.summary = %Q{Adds json output support to ruport}
+    gem.description = %Q{Adds json output support to ruport}
+    gem.email = "code@milemeter.com"
     gem.homepage = "http://github.com/milemeter/ruport_json_formatter"
     gem.authors = ["Doug Bryant"]
     gem.add_development_dependency "rspec"
