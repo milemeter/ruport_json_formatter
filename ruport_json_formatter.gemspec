@@ -10,14 +10,15 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Doug Bryant"]
   s.date = %q{2010-05-10}
-  s.description = %q{Adds json output report to ruport}
-  s.email = %q{john.riney@milemeter.com}
+  s.description = %q{Adds json output support to ruport}
+  s.email = %q{code@milemeter.com}
   s.extra_rdoc_files = [
     "LICENSE",
      "README.rdoc"
   ]
   s.files = [
-    "LICENSE",
+    ".gitignore",
+     "LICENSE",
      "README.rdoc",
      "Rakefile",
      "VERSION",
@@ -31,7 +32,7 @@ Gem::Specification.new do |s|
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.6}
-  s.summary = %q{Adds json output report to ruport}
+  s.summary = %q{Adds json output support to ruport}
   s.test_files = [
     "spec/ruport_json_formatter_spec.rb",
      "spec/spec_helper.rb"
