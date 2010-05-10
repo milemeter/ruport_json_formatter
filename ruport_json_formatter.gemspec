@@ -22,6 +22,7 @@ Gem::Specification.new do |s|
      "Rakefile",
      "VERSION",
      "lib/ruport_json_formatter.rb",
+     "ruport_json_formatter.gemspec",
      "spec/ruport_json_formatter_spec.rb",
      "spec/spec.opts",
      "spec/spec_helper.rb"
